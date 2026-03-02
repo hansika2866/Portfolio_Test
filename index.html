@@ -1,136 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Hansika | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Your Name | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar">
-    <div class="logo">Hansika</div>
+<!-- ================= HERO SECTION ================= -->
+<section class="hero">
+  <nav>
+    <div class="logo">Your Name</div>
+    <ul>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact" class="btn">Get in touch!</a></li>
+    </ul>
+  </nav>
 
-    <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#achievements">Achievements</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</nav>
-
-<!-- HERO -->
-<header class="hero">
+  <div class="hero-content">
     <div class="hero-left">
-        <h1>Hansika K</h1>
-        <p class="hero-role">
-            Web Developer<br>
-            Django & Game Developer
-        </p>
+      <h1>PORTFOLIO</h1>
+      <p>
+        I love design and anything related to art.
+        I approach problems in a rational and pragmatic way
+        and seek the simplest and most functional solutions possible.
+      </p>
     </div>
 
     <div class="hero-right">
-        <img src="Portfolio.jpeg" alt="Hansika photo" class="profile-pic">
+      <img src="Portfolio.jpeg" alt="Your Photo">
     </div>
-</header>
+  </div>
 
-<!-- CARDS -->
-<section class="cards">
-    <div class="card" onclick="scrollToSection('about')">
-        <h2>About Me</h2>
-        <p>Who I am & what I do</p>
-    </div>
-
-    <div class="card" onclick="scrollToSection('skills')">
-        <h2>Skills</h2>
-        <p>Technologies I work with</p>
-    </div>
-
-    <div class="card" onclick="scrollToSection('projects')">
-        <h2>Projects</h2>
-        <p>My real-world work</p>
-    </div>
-
-    <div class="card" onclick="scrollToSection('contact')">
-        <h2>Contact</h2>
-        <p>Get in touch</p>
-    </div>
-
-    <div class="card" onclick="scrollToSection('achievements')">
-        <h2>Achievements</h2>
-        <p>My accomplishments</p>
-    </div>
+  <div class="scroll-btn" onclick="scrollToAbout()">Scroll down</div>
 </section>
 
-<!-- ABOUT -->
-<section id="about" class="content">
-    <h2>About Me</h2>
+
+<!-- ================= ABOUT SECTION ================= -->
+<section class="about" id="about">
+  <div class="about-left">
+    <h2>Hello,<br>I'm Hansika!</h2>
     <p>
-        I am a passionate developer focused on building scalable,
+      I am a passionate developer focused on building scalable,
         user-friendly web applications using modern technologies.
         I work with HTML, CSS, and JavaScript for frontend development,
         and Python with Django for backend development.
         I am also interested in game development and have experience
-        with Unity, along with 3D modeling and animation using Blender.
+        with Unity and Blender.
     </p>
-</section>
 
-<!-- SKILLS -->
-<section id="skills" class="content">
-    <h2>Skills</h2>
-    <p>HTML, CSS, JavaScript</p>
-    <p>Python & Django</p>
-    <p>Blender (3D Modeling & Animation)</p>
-    <p>Git & GitHub</p>
-    <p>UI Animations</p>
-</section>
+    <a href="#" class="linkedin-btn">linkedin.com/in/hansika2866</a>
+  </div>
 
-<!-- PROJECTS -->
-<section id="projects" class="content">
-    <h2>Projects</h2>
-    <p><strong>Climate Intelligence Platform</strong> — API-based weather insights</p>
-    <p><strong>Educational App for Dyslexic Students</strong> — Django application</p>
-    <p><strong>Student Management System</strong> — Django CRUD application</p>
-</section>
+  
 
-<!-- ACHIEVEMENTS -->
-<section id="achievements" class="content">
-    <h2>Achievements</h2>
-
-    <div class="achievement-list">
-        <div class="achievement-item">
-            <span class="year">2026</span>
-            <p>Achieved Best Interdisciplinary Award for and educational full-stack Django application </p>
-        </div>
-        <div class="achievement-item">
-            <span class="year">2025</span>
-            <p>Built a full-stack Django application </p>
-        </div>
-
-        <div class="achievement-item">
-            <span class="year">2024</span>
-            <p>Completed multiple web development projects using modern frontend tools</p>
-        </div>
-
-        <div class="achievement-item">
-            <span class="year">2023</span>
-            <p>Recognized for academic excellence in computer science</p>
-        </div>
+    <div class="contact-card">
+      <h3>Contact</h3>
+      <p>📍 Coimbatore, India</p>
+      <p>✉ hansika28hk@email.com</p>
+      <p>📞 7635xxxxxx</p>
     </div>
+  </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="content">
-    <h2>Contact</h2>
-    <p>Email: hansika28hk@email.com</p>
-    <p>GitHub: github.com/hansika2866</p>
+
+<!-- ================= RESUME SECTION ================= -->
+<section class="resume" id="resume">
+
+  <div class="left-column">
+
+    <div class="card green">
+      <h3>Education</h3>
+      <p><strong>2024 - 2028</strong><br>Dr. NGP Institute of Technology<br>B. Tech CSBS</p>
+      <p><strong>2021 - 2022</strong><br>SSVM<br>Higher Secondary Education</p>
+    </div>
+
+    <div class="card yellow">
+      <h3>Experience</h3>
+      <p><strong>||</strong> - Frontend Developer</p>
+      <p><strong>||</strong> - #D Modeling</p>
+
+      <div class="skills-tags">
+        <span>#Creativity</span>
+        <span>#Communication</span>
+        <span>#Adaptability</span>
+      </div>
+    </div>
+
+    <div class="card green">
+      <h3>Activities</h3>
+      <p>2025 - Merit Scholarship</p>
+      <p>2022 - Interdisciplinary award</p>
+    </div>
+
+  </div>
+
+
+  <div class="right-column">
+
+    <div class="card green">
+      <h3>Technical Skills</h3>
+
+      
+
+      <h4>Coding</h4>
+      <p>HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="card light">
+      <h3>Languages</h3>
+      <p>English - Fluent</p>
+      <p>Tamil - Intermediate</p>
+      <p>Native Language - Hindi</p>
+    </div>
+
+    <div class="card light">
+      <h3>Hobbies & Interests</h3>
+      <p>🎵 Music</p>
+      <p>🎨 Digital Art</p>
+      <p>✂ 3D MOdeling</p>
+    </div>
+
+  </div>
+
 </section>
 
-<!-- JS -->
 <script src="script.js"></script>
 </body>
 </html>
