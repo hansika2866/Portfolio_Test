@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hansika | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">Hansika</div>
+
+    <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+    <div class="hero-left">
+        <h1>Hansika K</h1>
+        <p class="hero-role">
+            Web Developer<br>
+            Django & Game Developer
+        </p>
+    </div>
+
+    <div class="hero-right">
+        <img src="Portfolio.jpeg" alt="Hansika photo" class="profile-pic">
+    </div>
+</header>
+
+<!-- CARDS -->
+<section class="cards">
+    <div class="card" onclick="scrollToSection('about')">
+        <h2>About Me</h2>
+        <p>Who I am & what I do</p>
+    </div>
+
+    <div class="card" onclick="scrollToSection('skills')">
+        <h2>Skills</h2>
+        <p>Technologies I work with</p>
+    </div>
+
+    <div class="card" onclick="scrollToSection('projects')">
+        <h2>Projects</h2>
+        <p>My real-world work</p>
+    </div>
+
+    <div class="card" onclick="scrollToSection('contact')">
+        <h2>Contact</h2>
+        <p>Get in touch</p>
+    </div>
+
+    <div class="card" onclick="scrollToSection('achievements')">
+        <h2>Achievements</h2>
+        <p>My accomplishments</p>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="content">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate developer focused on building scalable,
+        user-friendly web applications using modern technologies.
+        I work with HTML, CSS, and JavaScript for frontend development,
+        and Python with Django for backend development.
+        I am also interested in game development and have experience
+        with Unity, along with 3D modeling and animation using Blender.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="content">
+    <h2>Skills</h2>
+    <p>HTML, CSS, JavaScript</p>
+    <p>Python & Django</p>
+    <p>Blender (3D Modeling & Animation)</p>
+    <p>Git & GitHub</p>
+    <p>UI Animations</p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="content">
+    <h2>Projects</h2>
+    <p><strong>Climate Intelligence Platform</strong> — API-based weather insights</p>
+    <p><strong>Educational App for Dyslexic Students</strong> — Django application</p>
+    <p><strong>Student Management System</strong> — Django CRUD application</p>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="content">
+    <h2>Achievements</h2>
+
+    <div class="achievement-list">
+        <div class="achievement-item">
+            <span class="year">2026</span>
+            <p>Achieved Best Interdisciplinary Award for and educational full-stack Django application </p>
+        </div>
+        <div class="achievement-item">
+            <span class="year">2025</span>
+            <p>Built a full-stack Django application </p>
+        </div>
+
+        <div class="achievement-item">
+            <span class="year">2024</span>
+            <p>Completed multiple web development projects using modern frontend tools</p>
+        </div>
+
+        <div class="achievement-item">
+            <span class="year">2023</span>
+            <p>Recognized for academic excellence in computer science</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="content">
+    <h2>Contact</h2>
+    <p>Email: hansika28hk@email.com</p>
+    <p>GitHub: github.com/hansika2866</p>
+</section>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>
